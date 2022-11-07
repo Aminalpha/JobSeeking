@@ -6,3 +6,11 @@ https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/
 
 username: bobdi@mailfence.com
 NPhj*SzEK8N+T5w
+
+##Update and upgrade angular cli globally
+
+npm install -g @angular/cli@latest
+
+##Update project localy
+
+##Use gitflow = 1branch = 1 fonctionality
