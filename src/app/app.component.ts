@@ -22,7 +22,6 @@ export class AppComponent implements OnInit {
   }
 
   getJobs() {
-    //console.log("test coomp")
     this.jobs$ = this.searchJobService.getJob().pipe(
       tap(data => {console.log(data)})
       );
