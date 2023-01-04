@@ -80,12 +80,14 @@
       <div class="w-4/12  h-750 bg-green-400">Titre du poste, lieu; Category</div>
       <div class="w-3/12  h-20 bg-yellow-300" >Boutons</div>
     </div>
+
+    <ul>
+      <li *ngFor="let job of jobs$ | async list ">{{job.title}}</li>
+    
+    </ul>
   
 </main>
-<ul>
-  <li *ngFor="let job of jobs$ | async list ">{{job.title}}</li>
 
-</ul>
 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 <footer>   
   <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 mb-0">© 2022 <a href="#" class="hover:underline">Jobiendo</a>. All Rights Reserved.

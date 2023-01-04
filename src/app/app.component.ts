@@ -1,8 +1,8 @@
 import { HttpResponse } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { map, Observable, of, tap } from 'rxjs';
 import { JobDTO } from './dto/job.dto';
-import { SearchJobService } from './search.job.service';
+import { SearchJobService } from './services/search.job.service';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import { SearchJobService } from './search.job.service';
 })
 export class AppComponent implements OnInit {
   title = 'JobSearch';
-  jobs$: Observable<JobDTO[]> = of();
+jobs$: Observable<JobDTO[]> = of();
 
   constructor (private searchJobService : SearchJobService) {
 

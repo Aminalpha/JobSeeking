@@ -5,10 +5,8 @@
 export const environment = {
   production: false,
   baseUrlApi: "https://arbeitnow-free-job-board.p.rapidapi.com/api/job-board-api",
-  headers:{
-  'X-RapidAPI-Key': 'c2daaa4e23msh6e95697c68eb0dcp142acdjsn8f8234cac6fe',
-  'X-RapidAPI-Host': 'arbeitnow-free-job-board.p.rapidapi.com'
-  }
+  rapidApiKey: '58576a891dmsh9051ccba60d481fp1bfba9jsnf387c137d990',
+  rapidApiHost: 'arbeitnow-free-job-board.p.rapidapi.com'
 };
 
 /*
