@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrlApi: "https://arbeitnow-free-job-board.p.rapidapi.com/api/job-board-api",
+  rapidApiKey: '58576a891dmsh9051ccba60d481fp1bfba9jsnf387c137d990',
+  rapidApiHost: 'arbeitnow-free-job-board.p.rapidapi.com'
 };
 
 /*
